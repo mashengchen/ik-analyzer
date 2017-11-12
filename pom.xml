@@ -6,6 +6,13 @@
     <version>6.5.1</version>
     <name>IK Analyzer</name>
     <description>A dictionary and grammar-based Chinese segmenter.</description>
+    <repositories>
+        <repository>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
     <properties>
         <java-version>1.8</java-version>
         <project.build.sourceEncoding>
